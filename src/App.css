@@ -1,0 +1,31 @@
+.second-section-div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.vacation-div-main {
+  display: flex;
+  /* width: 1920px; */
+  height: 100vh;
+  flex-direction: column;
+  align-items: left;
+}
+.vacation-div {
+  display: flex;
+  width: 1720px;
+  justify-content: space-between;
+
+}
+.vacation-img {
+  border-radius: 20px;
+  width: 400px;
+}
+.vacation-h2 {
+  font-family: 'Onest';
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

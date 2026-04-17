@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Buyan';
+  src: url('./fonts/BuyanBold.ttf') format(truetype)
+}
+@font-face {
+  font-family: 'Onest';
+  src: url('./fonts/Onest-VariableFont_wght.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helvetica-bold';
+  src: url('./fonts/HelveticaNeue-Bold.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helvetica-light';
+  src: url('./fonts/HelveticaNeue-Light.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helvetica-medium';
+  src: url('./fonts/HelveticaNeue-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helvetica-roman';
+  src: url('./fonts/HelveticaNeue-Roman.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Helvetica-thin';
+  src: url('./fonts/HelveticaNeue-Thin.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} 
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+div { 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: clamp(60px, 10vh, 80px);
+  width: calc(100vw - 50px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.172);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+h1 {
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+}
